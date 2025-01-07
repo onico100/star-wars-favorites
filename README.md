@@ -38,4 +38,4 @@ Home page:
 
 Movie details card:
 
-![movieCard](public/assets/movieCard.png)
+![movieCard](public/assets/MovieCard.png)
