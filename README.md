@@ -14,7 +14,7 @@ This project is a web client application for browsing Star Wars movies and marki
 1. Clone the repository:
 
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/onico100/star-wars-favorites
    cd star-wars-favorites
    ```
 
