@@ -15,6 +15,7 @@ const MovieCard = ({ movie, isFavorite, toggleFavorite }) => {
   return (
     <div className={styles.card}>
       <h2 className={roboto.className}>{movie.title}</h2>
+      <p className={lato.className}>Episode: {movie.episode_id}</p>
       <p className={lato.className}>Release Date: {movie.release_date}</p>
       <p className={lato.className}> Director: {movie.director}</p>
       <button
