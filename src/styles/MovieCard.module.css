@@ -1,9 +1,16 @@
 .card {
-  border: 1px solid #ccc;
+  border: 1px solid #964848;
   padding: 1rem;
   margin: 1rem;
   border-radius: 8px;
   transition: transform 0.2s;
+  align-items: center;
+  justify-items: center;
+  min-width: 22vw;
+}
+
+.card h2 {
+  color: #964848;
 }
 
 .card:hover {
@@ -11,16 +18,12 @@
 }
 
 .card button {
-  background-color: #0070f3;
-  color: white;
+  justify-self: center;
+  color: brown;
   padding: 0.5rem 1rem;
   border: none;
   border-radius: 5px;
   cursor: pointer;
-}
-
-.card button.favorite {
-  background-color: #e63946;
 }
 
 .card button:hover {

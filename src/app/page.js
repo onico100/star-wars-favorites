@@ -26,7 +26,13 @@ export default function Home() {
 
   return (
     <main style={{ padding: "1rem" }}>
-      <div style={{ display: "flex", flexWrap: "wrap" }}>
+      <div
+        style={{
+          display: "flex",
+          flexWrap: "wrap",
+          justifyContent: "center",
+        }}
+      >
         {movies.map((movie) => (
           <MovieCard
             key={movie.episode_id}
