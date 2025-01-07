@@ -29,4 +29,6 @@
 
 .card button:hover {
   opacity: 0.9;
+  background: brown;
+  color: #fff;
 }

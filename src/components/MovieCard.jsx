@@ -13,17 +13,16 @@ const lato = Lato({
 });
 const MovieCard = ({ movie, isFavorite, toggleFavorite }) => {
   return (
-    <div className={styles.card}>
-      <h2 className={roboto.className}>{movie.title}</h2>
-      <p className={lato.className}>Episode: {movie.episode_id}</p>
-      <p className={lato.className}>Release Date: {movie.release_date}</p>
-      <p className={lato.className}> Director: {movie.director}</p>
-      <button
-        className={isFavorite ? styles.favorite : ""}
-        onClick={() => toggleFavorite(movie.episode_id)}
-      >
-        {isFavorite ? <MdFavorite /> : <MdOutlineFavoriteBorder />}
-      </button>
+    <div className={lato.className}>
+      <div className={styles.card}>
+        <h2 className={roboto.className}>{movie.title}</h2>
+        <p>Episode: {movie.episode_id}</p>
+        <p>Release Date: {movie.release_date}</p>
+        <p> Director: {movie.director}</p>
+        <button onClick={() => toggleFavorite(movie.episode_id)}>
+          {isFavorite ? <MdFavorite /> : <MdOutlineFavoriteBorder />}
+        </button>
+      </div>
     </div>
   );
 };
